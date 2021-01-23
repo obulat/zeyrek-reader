@@ -11,3 +11,102 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  border-bottom: 1px solid #e3f9fa;
+  padding-left: 1rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  color:#282c34;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 30px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.navbar .menu {
+  margin-left: auto;
+}
+
+.menu .button + .button {
+  margin-left: 1rem;
+}
+
+.button.signup-button {
+  background-color: #44C2CA;
+  appearance: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border-color: transparent;
+  border-style: solid;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.signup-button:hover {
+  cursor: pointer;
+  filter: brightness(105%) saturate(105%);
+}
+.signup-button:focus,
+.signup-button:active {
+  cursor: pointer;
+  filter: brightness(90%) saturate(90%);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(68, 153, 209, 0.2);
+}
+
+.button.login-button {
+  background-color: white;
+  appearance: none;
+  color: #44C2CA;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border-color: #44C2CA;
+  border-style: solid;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: #44C2CA;
+  filter: brightness(115%);
+  color: white;
+}
+.login-button:focus,
+.login-button:active {
+  cursor: pointer;
+  filter: brightness(90%) saturate(90%);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(68, 153, 209, 0.2);
+}
+
+.user__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.user__name {
+  font-weight: bold;
+  text-transform: none;
+}
