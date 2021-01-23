@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zeyrek-reader/static/css/main.f93451d0.chunk.css",
+    "main.js": "/zeyrek-reader/static/js/main.0c3a9999.chunk.js",
+    "main.js.map": "/zeyrek-reader/static/js/main.0c3a9999.chunk.js.map",
+    "runtime-main.js": "/zeyrek-reader/static/js/runtime-main.82962e8a.js",
+    "runtime-main.js.map": "/zeyrek-reader/static/js/runtime-main.82962e8a.js.map",
+    "static/js/2.f1266a7d.chunk.js": "/zeyrek-reader/static/js/2.f1266a7d.chunk.js",
+    "static/js/2.f1266a7d.chunk.js.map": "/zeyrek-reader/static/js/2.f1266a7d.chunk.js.map",
+    "static/js/3.24377c57.chunk.js": "/zeyrek-reader/static/js/3.24377c57.chunk.js",
+    "static/js/3.24377c57.chunk.js.map": "/zeyrek-reader/static/js/3.24377c57.chunk.js.map",
+    "index.html": "/zeyrek-reader/index.html",
+    "static/css/main.f93451d0.chunk.css.map": "/zeyrek-reader/static/css/main.f93451d0.chunk.css.map",
+    "static/js/2.f1266a7d.chunk.js.LICENSE.txt": "/zeyrek-reader/static/js/2.f1266a7d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/zeyrek-reader/static/media/hero-image.55a11002.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82962e8a.js",
+    "static/js/2.f1266a7d.chunk.js",
+    "static/css/main.f93451d0.chunk.css",
+    "static/js/main.0c3a9999.chunk.js"
+  ]
+}
