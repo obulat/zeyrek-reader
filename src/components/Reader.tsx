@@ -86,7 +86,7 @@ function Reader ({readerRef}: {
 
       </div>
       {
-        activeWord && definitions && <SelectedWordDefinitions definitions={definitions} activeWord={activeWord}/>
+        definitions && <SelectedWordDefinitions definitions={definitions} />
       }
     </section>
   )
